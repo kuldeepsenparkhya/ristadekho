@@ -13,7 +13,6 @@ const ProfileDetail = () => {
         <div className="container mx-auto">
           <div className="columns-1 text-center		">
             <LeftProfileMenu />
-
             <Image
               className="inline-block h-20 w-20 rounded-full ring-2 ring-white"
               src={avtar}

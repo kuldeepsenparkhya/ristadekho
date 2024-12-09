@@ -26,7 +26,7 @@ const UserSidebar = () => {
                   >
                     {
                       <item.icon className="h-5 w-5 text-gray-400 mr-2 group-hover:text-orange-500" />
-                    }
+                    } 
                     {item.name}
                   </a>
                 </>

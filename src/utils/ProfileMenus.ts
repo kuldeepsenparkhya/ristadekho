@@ -12,12 +12,12 @@ export interface MenuList {
 export const menuList: MenuList[] = [
   {
     name: "Dashboard",
-    link: "/dashboard",
+    link: "/user-dashboard",
     icon: AiOutlineDashboard, // Pass the component itself without className here
   },
   {
     name: "Profile",
-    link: "/profile",
+    link: "/user-dashboard/profile",
     icon: BsPersonStanding,
   },
   {

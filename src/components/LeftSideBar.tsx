@@ -58,6 +58,7 @@ const LeftSideBar = () => {
               </select>
             </div>
           </div>
+          
           {/* *************************Select Religion*************** */}
 
           <div className="sm:col-span-3">
