@@ -6,7 +6,7 @@ import { Zoom } from "react-slideshow-image";
 import { imagesURs } from "@/assets/images/index";
 import Image from "next/image";
 
-const Slider = () => {
+const HomeSlider = () => {
   const images = [imagesURs.imgsss.src, imagesURs.whyus1.src];
   const zoomOutProperties = {
     duration: 5000,
@@ -41,4 +41,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default HomeSlider;

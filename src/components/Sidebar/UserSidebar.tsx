@@ -9,7 +9,7 @@ const UserSidebar = () => {
   return (
     <React.Fragment>
       <div>
-        <div className="w-64 bg-gray-50 border-r border-gray-200 shadow-[0_1px_12px_-2px_#00000024]">
+        <div className=" bg-gray-50 border-r border-gray-200 shadow-[0_1px_12px_-2px_#00000024]">
           <div className="py-4 px-6">
             <a href="/">
               <Image src={profile12} alt="" className="rounded-md " />
@@ -26,7 +26,7 @@ const UserSidebar = () => {
                   >
                     {
                       <item.icon className="h-5 w-5 text-gray-400 mr-2 group-hover:text-orange-500" />
-                    } 
+                    }
                     {item.name}
                   </a>
                 </>

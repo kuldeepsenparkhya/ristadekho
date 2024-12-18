@@ -1,9 +1,11 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 import brandLogo from "@/assets/images/brandlogo.webp";
 import Link from "next/link";
+import { CiMenuBurger } from "react-icons/ci";
+import { RxCross1 } from "react-icons/rx";
 
 interface MenuList {
   name: string;
@@ -11,6 +13,8 @@ interface MenuList {
 }
 
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
   const menuList: MenuList[] = [
     {
       name: "Explore",
@@ -33,9 +37,13 @@ const Header = () => {
           className="mx-auto flex items-center justify-between"
           aria-label="Global"
         >
+          {/* <CiMenuBurger /> */}
+          {/* <RxCross1 /> */}
+
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
+
               <Image
                 src={brandLogo}
                 width={100}
